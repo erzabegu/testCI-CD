@@ -25,7 +25,7 @@ jobs:
       - name: Deploy
         uses: erezabegu/actions-gh-pages@v3
         with:
-          github_token: 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
+          github_token: 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
           publish_dir: ./build
 #on:
 #  push:
