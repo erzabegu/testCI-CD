@@ -3,10 +3,10 @@ name: CI/CD
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -25,22 +25,3 @@ jobs:
         with:
           github_token: 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
           publish_dir: ./build
-#on:
-#  push:
-#    branches:
-#      - main
-#  pull_request:
-#    branches:
-#      - main
-#
-#jobs:
-#  build:
-#    runs-on: ubuntu-latest
-#
-#    steps:
-#      - name: Checkout code
-#        uses: actions/checkout@v2
-#
-#      - name: Install dependencies
-#        run: npm install
-
