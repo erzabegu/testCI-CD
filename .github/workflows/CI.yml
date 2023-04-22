@@ -1,6 +1,6 @@
 name: CI/CD
 on:
-  commit:
+  push:
     branches:
       - main
   pull_request:
