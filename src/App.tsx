@@ -5,7 +5,7 @@ function App() {
 
     return (
         <div className="App">
-            <h1>Test project to implement CI github actionss</h1>
+            <h1>Test project to implement CI github actions</h1>
         </div>
     )
 }
