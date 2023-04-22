@@ -19,6 +19,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+
+      - name: Deploy
         uses: erzabegu/actions-gh-pages@v3
         with:
           github_token: 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
